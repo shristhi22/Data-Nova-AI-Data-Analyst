@@ -416,9 +416,9 @@ if tool == "💡 AI Insights":
     st.write("• Create visualizations to identify trends.")
 
     st.stop()  
-if tool == "🤖AI Troubleshooter":
+if tool == "🤖 Smart Query":
 
-    st.header("🤖AI Troubleshooter")
+    st.header("🤖 Smart Query")
 
     query = st.text_input(
         "Ask something about your dataset"
@@ -441,36 +441,47 @@ if tool == "🤖AI Troubleshooter":
 
         elif "duplicate" in q:
             st.success(f"Duplicate Rows : {df.duplicated().sum()}")
+        elif "highest" in q or "max" in q:
 
-        elif "highest" in q:
+         numeric_cols = df.select_dtypes(include="number").columns.tolist()
 
-            num = df.select_dtypes(include="number").columns
+         found = False
 
-            if len(num) > 0:
+        for col in numeric_cols:
 
-                col = st.selectbox(
-                    "Select Numeric Column",
-                    num
-                )
+         if col.lower() in q:
 
-                st.success(f"Highest {col}: {df[col].max()}")
+            st.success(f"Highest {col}: {df[col].max()}")
 
-        elif "average" in q:
+            found = True
 
-            num = df.select_dtypes(include="number").columns
+            break
 
-            if len(num) > 0:
+        if not found:
 
-                col = st.selectbox(
-                    "Select Numeric Column",
-                    num
-                )
+         st.warning("Please mention the numeric column name.")
 
-                st.success(f"Average {col}: {round(df[col].mean(),2)}")
+        elif "average" in q or "mean" in q:
 
-        else:
+         numeric_cols = df.select_dtypes(include="number").columns.tolist()
 
-            st.warning("Query not supported yet.")
+         found = False
+
+        for col in numeric_cols:
+
+         if col.lower() in q:
+
+            st.success(f"Average {col}: {round(df[col].mean(),2)}")
+
+            found = True
+
+            break
+
+    if not found:
+
+        st.warning("Please mention the numeric column name.")
+
+        
 
     st.stop()       
 # ---------------- KPI ----------------
