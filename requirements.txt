@@ -1,0 +1,10 @@
+streamlit==1.45.1
+pandas==2.2.3
+numpy==2.2.6
+plotly==5.24.1
+ollama==0.4.7
+python-dotenv==1.0.1
+fpdf2==2.8.3
+openpyxl==3.1.5
+
+

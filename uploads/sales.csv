@@ -1,0 +1,16 @@
+Order_ID,Product,Category,City,Quantity,Price,Sales
+1001,Laptop,Electronics,Delhi,2,55000,110000
+1002,Mouse,Electronics,Lucknow,5,700,3500
+1003,Keyboard,Electronics,Mumbai,3,1500,4500
+1004,Chair,Furniture,Pune,2,4500,9000
+1005,Table,Furniture,Delhi,1,8500,8500
+1006,Monitor,Electronics,Jaipur,2,12000,24000
+1007,Printer,Electronics,Lucknow,1,15000,15000
+1008,Sofa,Furniture,Mumbai,1,35000,35000
+1009,Fan,Home,Delhi,4,2500,10000
+1010,AC,Home,Pune,2,38000,76000
+1011,Cooler,Home,Lucknow,2,9000,18000
+1012,TV,Electronics,Delhi,1,45000,45000
+1013,Bed,Furniture,Jaipur,1,28000,28000
+1014,Bookshelf,Furniture,Mumbai,2,7000,14000
+1015,Headphones,Electronics,Pune,4,2500,10000

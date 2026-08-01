@@ -1,0 +1,21 @@
+Employee_ID,Name,Department,Gender,Age,Experience,Salary,City,Performance
+EMP001,Rahul Sharma,IT,Male,25,2,45000,Lucknow,Good
+EMP002,Priya Singh,HR,Female,28,4,52000,Delhi,Excellent
+EMP003,Amit Verma,Finance,Male,31,6,68000,Mumbai,Good
+EMP004,Neha Gupta,Marketing,Female,26,3,48000,Pune,Average
+EMP005,Rohit Yadav,IT,Male,29,5,72000,Noida,Excellent
+EMP006,Anjali Mishra,Sales,Female,24,2,40000,Lucknow,Good
+EMP007,Vikas Kumar,Finance,Male,35,9,90000,Delhi,Excellent
+EMP008,Sneha Kapoor,HR,Female,30,7,65000,Mumbai,Good
+EMP009,Arjun Singh,Marketing,Male,27,4,55000,Jaipur,Average
+EMP010,Kriti Jain,IT,Female,23,1,38000,Pune,Good
+EMP011,Deepak Sharma,Sales,Male,33,8,78000,Delhi,Excellent
+EMP012,Pooja Verma,HR,Female,29,5,59000,Lucknow,Good
+EMP013,Karan Mehta,IT,Male,32,7,81000,Bengaluru,Excellent
+EMP014,Meera Joshi,Finance,Female,34,9,92000,Hyderabad,Excellent
+EMP015,Sachin Patel,Sales,Male,26,3,47000,Ahmedabad,Average
+EMP016,Riya Saxena,Marketing,Female,25,2,43000,Lucknow,Good
+EMP017,Abhishek Roy,IT,Male,36,10,98000,Kolkata,Excellent
+EMP018,Simran Kaur,HR,Female,27,4,54000,Chandigarh,Good
+EMP019,Manish Tiwari,Finance,Male,38,12,110000,Delhi,Excellent
+EMP020,Nikita Arora,Marketing,Female,31,6,69000,Mumbai,Good
